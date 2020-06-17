@@ -79,7 +79,7 @@ html {
     font-family: 'Times New Roman', Times, serif;
     font-size: 48px;
     font-weight: 700;
-    color: #ffffff;
+    color: #f0f0f0;
     text-transform: uppercase;
 }
 
@@ -160,6 +160,128 @@ form {
 
 
 /* about part end */
+
+
+/* service part start */
+
+.service {
+    padding: 100px 0;
+    background: #f9f9f9;
+}
+
+.service-content h2 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    text-transform: capitalize;
+}
+
+.service-content p {
+    font-size: 17px;
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    padding: 45px 0;
+}
+
+.btn-custom-3 {
+    border: 3px solid#7f1a38;
+    border-radius: 37px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: #7f1a38!important;
+    font-size: 20px;
+}
+
+
+/* service part end */
+
+
+/* heading part start */
+
+.heading {
+    padding: 50px 0;
+    background: #32383d;
+}
+
+.heading-content h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.btn-custom-4 {
+    border: 3px solid#ffffff;
+    border-radius: 37px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-size: 20px;
+    margin-top: -25px;
+    letter-spacing: 2px;
+}
+
+
+/* heading part end */
+
+
+/* slider part start */
+
+.slider {
+    padding: 30px 0;
+    background: #09bbdb;
+}
+
+.slider-content i {
+    font-size: 40px;
+    color: #117486;
+    padding-bottom: 20px;
+}
+
+.slider-content p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.font {
+    color: #0e8aa1;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: -8%;
+    background: none;
+    border: 2px solid#67e1f7!important;
+}
+
+.carousel-indicators .active {
+    background: #67e1f7;
+}
+
+
+/* slider part end */
+
+
+/* footer part start */
+
+.footer {
+    padding: 40px 0;
+}
+
+.footer-content p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* footer part end */
 
 
 /* font-family: 'Open Sans', sans-serif;
