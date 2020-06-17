@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header area start */
+
+.header {
+    padding: 20px 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 4px;
+}
+
+.menu ul li a {
+    color: #404040!important;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menu ul li a::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #404040;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover::after {
+    width: 100%;
+}
+
+.menu ul li {
+    margin-right: 15px;
+}
+
+.btn-custom {
+    background-color: #7f1a38;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-top: -9px;
+    text-transform: uppercase;
+}
+
+.btn-custom:hover {
+    background: transparent;
+    border: 2px solid#7f1a38;
+    color: #7f1a38;
+}
+
+
+/* header area end */
+
+
+/* bannar part start */
+
+.banner {
+    padding: 100px 0;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.font-style {
+    color: #6feeff;
+}
+
+form {
+    padding: 20px;
+    background-color: #7f1a38;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.form-custom {
+    border-radius: 0;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+.btn-style {
+    background: #ae2c52;
+    border-radius: 0;
+    padding: 2% 32%;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.form-control {
+    width: 95%;
+}
+
+.style-p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+
+/* bannar part end */
+
+
+/* about part start */
+
+.about {
+    padding: 100px 0;
+}
+
+.about-content i {
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: #444444;
+}
+
+.about-content h3 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #141414;
+}
+
+.about-content p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+}
+
+
+/* about part end */
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
